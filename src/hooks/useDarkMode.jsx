@@ -34,7 +34,7 @@ const useDarkMode = () => {
 		const className = "dark";
 		const bodyClass = window.document.body.classList;
 
-		isEnabled ? bodyClass.add(className) : bodyClass.remove(className);
+		isEnabled ? bodyClass.remove(className) : bodyClass.add(className);
 	}, [enabled, isEnabled]);
 
 	return [enabled, setEnabled];

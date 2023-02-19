@@ -156,9 +156,9 @@ export default function NavBar() {
 						onClick={handleMode}
 					>
 						{darkTheme ? (
-							<SunIcon className='h-6 w-6 cursor-pointer opacity-100' />
-						) : (
 							<MoonIcon className='h-6 w-6 cursor-pointer opacity-100' />
+						) : (
+							<SunIcon className='h-6 w-6 cursor-pointer opacity-100' />
 						)}
 					</motion.div>
 				</div>
@@ -199,9 +199,9 @@ export default function NavBar() {
 										onClick={handleMode}
 									>
 										{darkTheme ? (
-											<SunIcon className='h-6 w-6 cursor-pointer opacity-100 text-white' />
-										) : (
 											<MoonIcon className='h-6 w-6 cursor-pointer opacity-100 text-white' />
+										) : (
+											<SunIcon className='h-6 w-6 cursor-pointer opacity-100 text-white' />
 										)}
 									</motion.div>
 									<div className='-mr-2'>
