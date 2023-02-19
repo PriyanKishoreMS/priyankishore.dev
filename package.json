@@ -1,7 +1,7 @@
 {
-  "name": "react-2022-portfolio",
-  "private": true,
-  "version": "0.0.0",
+  "name": "pk-portfolio",
+  "homepage": "https://priyankishorems.github.io/priyankishore.dev/",
+  "version": "0.0.1",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
